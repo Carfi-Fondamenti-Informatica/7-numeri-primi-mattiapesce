@@ -1,4 +1,6 @@
 #include "lib.h"
+
+
 bool numeroPrimo (int a ) {
   bool primo = true ;
   for (int i=2; i<a ; i++){
@@ -6,6 +8,7 @@ bool numeroPrimo (int a ) {
     if (risultato==0 and i<a){
       primo = false ;
       break ;
+      
     }
   }
   return primo ;
