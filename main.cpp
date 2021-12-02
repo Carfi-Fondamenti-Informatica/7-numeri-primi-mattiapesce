@@ -19,5 +19,5 @@ else {
     cout << "numero non primo" << endl ;
   }
 }
-  return o;
+  return 0;
 }
